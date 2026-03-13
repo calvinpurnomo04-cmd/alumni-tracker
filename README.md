@@ -1,4 +1,4 @@
-# Sistem Pelacakan Alumni (Dashboard Version)
+# Sistem Pelacakan Alumni 
 
 ## Fitur
 - Input data alumni
