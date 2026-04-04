@@ -17,21 +17,6 @@ border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-.stats{
-display:flex;
-gap:15px;
-margin-bottom:20px;
-}
-
-.card{
-flex:1;
-background:#2ecc71;
-color:white;
-padding:15px;
-border-radius:8px;
-text-align:center;
-}
-
 input{
 display:block;
 margin:10px 0;
@@ -70,14 +55,19 @@ color:white;
 }
 
 .delete{
-background:#e74c3c;
+background:red;
 }
 
-.delete:hover{
-background:#c0392b;
-}
-
-.github{
+.login-box{
+width:300px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:10px;
 text-align:center;
-margin-top:20px;
+}
+
+.logout{
+background:red;
+float:right;
 }
