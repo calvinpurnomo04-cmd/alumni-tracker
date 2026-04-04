@@ -1,83 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Sistem Pelacakan Alumni</title>
+<title>Login Sistem Alumni</title>
 <link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
 
-<h1>Sistem Pelacakan Alumni</h1>
+<div class="login-box">
+<h2>Login Admin</h2>
 
-<div class="container">
+<input id="username" placeholder="Username">
+<input id="password" type="password" placeholder="Password">
 
-<h2>Dashboard Statistik</h2>
+<button onclick="login()">Login</button>
 
-<div class="stats">
-
-<div class="card">
-<h3 id="total">0</h3>
-<p>Total Alumni</p>
-</div>
-
-<div class="card">
-<h3 id="ditemukan">0</h3>
-<p>Ditemukan</p>
-</div>
-
-<div class="card">
-<h3 id="verifikasi">0</h3>
-<p>Perlu Verifikasi</p>
-</div>
-
-<div class="card">
-<h3 id="tidak">0</h3>
-<p>Tidak Ditemukan</p>
-</div>
-
-</div>
-
-<canvas id="chart"></canvas>
-
-<h2>Input Data Alumni</h2>
-
-<input type="text" id="nama" placeholder="Nama Alumni">
-<input type="text" id="prodi" placeholder="Program Studi">
-<input type="text" id="tahun" placeholder="Tahun Lulus">
-<input type="text" id="kota" placeholder="Kota">
-
-<button onclick="tambahAlumni()">Simpan Data</button>
-<button onclick="lacakAlumni()">Lacak Alumni</button>
-
-<h2>Pencarian Alumni</h2>
-<input type="text" id="search" placeholder="Cari alumni..." onkeyup="cariAlumni()">
-
-<h2>Data Alumni</h2>
-
-<table id="tabel">
-<thead>
-<tr>
-<th>Nama</th>
-<th>Prodi</th>
-<th>Tahun</th>
-<th>Kota</th>
-<th>Status</th>
-<th>Sumber</th>
-<th>Aksi</th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-
-<p class="github">
-Source Code :
-<a href="https://github.com/calvinpurnomo04-cmd/alumni-tracker" target="_blank">
-Github Repository
-</a>
-</p>
-
+<p id="error"></p>
 </div>
 
 <script src="script.js"></script>
