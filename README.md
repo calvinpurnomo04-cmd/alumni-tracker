@@ -1,18 +1,29 @@
-# Sistem Pelacakan Alumni 
+# Sistem Pelacakan Alumni
+
+## Login
+Username: admin  
+Password: 12345  
 
 ## Fitur
+- Login system
 - Input data alumni
-- Simulasi pelacakan alumni
-- Sumber LinkedIn / GitHub / Google Scholar / ResearchGate
-- Dashboard statistik
-- Grafik status alumni
-- Pencarian alumni
-- Hapus data alumni
-- Penyimpanan LocalStorage
+- Data sosial media
+- Import CSV (Excel)
+- Export CSV
+- Statistik alumni
+- Hapus data
 
-## Cara Menjalankan
-1. Buka file index.html di browser
-2. Atau upload ke GitHub lalu aktifkan GitHub Pages
+## Cara Pakai
+1. Login
+2. Input atau import data
+3. Kelola data alumni
 
-## Teknologi
-HTML, CSS, JavaScript, Chart.js
+## Pengujian
+
+| No | Aspek | Hasil |
+|----|------|------|
+|1|Login|Berhasil|
+|2|Input|Berhasil|
+|3|Import CSV|Berhasil|
+|4|Export CSV|Berhasil|
+|5|Keamanan|Login required|
